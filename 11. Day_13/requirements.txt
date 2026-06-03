@@ -1,0 +1,11 @@
+# Day 13 Requirements
+# Building UIs, Tools & Multimodal AI
+
+openai
+python-dotenv
+ipykernel
+jupyter
+gradio==5.34.2
+pillow
+requests
+
