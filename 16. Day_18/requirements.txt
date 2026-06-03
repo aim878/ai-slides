@@ -1,0 +1,20 @@
+# Day 18: Career Agent Requirements
+# Python 3.10+ recommended
+
+# Core dependencies
+openai>=1.12.0          # OpenAI API client
+python-dotenv>=1.0.0    # Environment variable management
+gradio>=4.0.0           # Web interface for ML apps
+requests>=2.31.0        # HTTP library for API calls
+
+# PDF processing
+PyPDF2>=3.0.0           # PDF file reading
+
+# Optional but recommended
+pydantic>=2.0.0         # Data validation (for structured outputs)
+rich>=13.0.0            # Pretty console output
+
+# Development dependencies (optional)
+jupyter>=1.0.0          # For running notebooks
+ipykernel>=6.0.0        # Jupyter kernel
+

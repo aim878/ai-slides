@@ -1,0 +1,29 @@
+# Day 19: OpenAI Agents SDK - Requirements
+
+# IMPORTANT: OpenAI Agents SDK is very new and may require installation from GitHub
+# If the standard openai package doesn't include 'agents', you may need to:
+# pip install git+https://github.com/openai/swarm.git
+
+# Core dependencies
+openai>=1.54.0
+python-dotenv>=1.0.0
+
+# For async operations (usually included with Python 3.5+)
+# asyncio is part of standard library
+
+# Email functionality
+sendgrid>=6.11.0
+
+# Optional: For better async handling
+anyio>=4.2.0
+
+# Development tools (optional)
+jupyter>=1.0.0
+ipykernel>=6.29.0
+
+# NOTE: As of January 2026, the OpenAI Agents SDK (formerly Swarm) may need to be
+# installed separately. Try these commands in order:
+# 1. pip install --upgrade openai
+# 2. If that doesn't work: pip install openai-swarm
+# 3. If that doesn't work: pip install git+https://github.com/openai/swarm.git
+
