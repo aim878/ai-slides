@@ -1,0 +1,32 @@
+# Day 21: LangGraph Framework Requirements
+
+# Core LangGraph and LangChain
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-core>=0.3.0
+
+# OpenAI API
+openai>=1.0.0
+
+# Pydantic for state management
+pydantic>=2.0.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Gradio for UI
+gradio==5.34.2
+
+# Jupyter for notebooks
+jupyter>=1.0.0
+ipython>=8.0.0
+
+# Optional: For graph visualization
+# Uncomment if you want to visualize graphs
+# graphviz>=0.20.0
+# pygraphviz>=1.11
+
+# Type hints
+typing-extensions>=4.0.0
+

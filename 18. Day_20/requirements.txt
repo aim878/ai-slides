@@ -1,0 +1,33 @@
+# Day 20: Deep Research Agent Requirements
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+openai>=1.54.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# For email functionality
+sendgrid>=6.11.0
+
+# For web interface (optional)
+gradio==5.34.2
+
+# For PDF processing (if needed)
+PyPDF2>=3.0.0
+
+# Async support
+aiohttp>=3.9.0
+
+# For Jupyter notebooks
+jupyter>=1.0.0
+ipython>=8.0.0
+
+# Alternative model providers (optional)
+# Uncomment if you want to use these models:
+# google-generativeai>=0.3.0  # For Gemini
+# anthropic>=0.18.0  # For Claude (via direct SDK)
+
+# Note: For OpenAI Agents SDK (not used in simplified version):
+# The Agents SDK is currently in beta and may require special access
+# Check https://platform.openai.com/docs/agents for updates
+

@@ -1,0 +1,22 @@
+# LLM Fine-Tuning Requirements
+
+# OpenAI API
+openai>=1.0.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Jupyter for notebooks
+jupyter>=1.0.0
+ipython>=8.0.0
+
+# Data handling
+pandas>=2.0.0
+
+# Type hints
+typing-extensions>=4.0.0
+
+# Dataset sources
+datasets>=2.14.0  # Hugging Face datasets
+kaggle>=1.5.16    # Kaggle API
+
